@@ -1,0 +1,33 @@
+/*   Styles  */
+@import url("CSS/login.css");
+@import url("CSS/nav.css");
+
+/*  Fonts  8 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  Reset  */
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+:root{
+    /* Colors */
+    --blck: #222831;
+    --dark: #090809;
+    --white: #fffdfd;
+    --pink: #ffafcc;
+    --violet: #cdb4db;
+    
+
+    /* font */
+    --font: 'Noto Sans Mono', monospace;
+}
+

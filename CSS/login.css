@@ -1,0 +1,113 @@
+@import url("CSS/main.css");
+
+body{
+    /* background: url(/assets/3-twt.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background: var(--pink);
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+}
+
+.wrapper{
+    /* background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+    background-color: var(--white);
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+form h1{
+    font-size: 2rem;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.ribbon{
+    position: absolute;
+    aspect-ratio: 2/3;
+    height: 300px;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c-uname, .c-pass, .c-btn{
+    width: 100%;
+    margin-top:20px;
+    position: relative;
+}
+
+.c-uname input::placeholder, .c-pass input::placeholder{
+    color: var(--pink);
+    font-weight: bold;
+    opacity: 1;
+}
+
+.c-uname input, .c-pass input{
+    width:100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--pink);
+    outline: none;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.c-uname input:hover, .c-pass input:hover{
+    box-shadow: 0 2px 0 var(--pink);
+}
+
+.c-uname i, .c-pass i{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--dark)
+}
+
+.c-check{
+    margin: 15px 0;
+    font-size: .8rem;
+    position: relative;
+}
+
+input[type="checkbox"]:checked{
+    background: var(--pink);
+}
+
+.c-check i{
+    position: absolute;
+    bottom: 2px;
+    left: 20px;
+}
+
+.c-btn .submit{
+    padding: 8px 20px;
+    margin: 30px auto;
+    display: block;
+    font-size: 1.02rem;
+    font-weight: 500;
+    background: none;
+    border: 2px solid var(--pink);
+}
+
+.c-btn .submit:hover{
+    background-color: var(--pink);
+    box-shadow: 0 0 5px var(--pink),
+                0 0 15px var(--pink),
+                0 0 20px var(--pink);
+    transition: .3s;
+}
+
+
+/* httpsgithub.comsether31mi-casa.git */

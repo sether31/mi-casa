@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Log IN</title>
+
+    <link rel="stylesheet" href="main.css" media="(max-width: 480px)" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <section class="wrapper" id="login">
+        <form name="loginform" onsubmit="return validateForm()">
+            <img src="/assets/ribbon.svg" alt="pink ribbon" class="ribbon">
+            <h1>Login</h1>
+            <div class="c-uname">
+                <input type="text" name="uname" class="uname" id="uname" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="c-pass">
+                <input type="password" name="pass" class="pass" id="pass" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="c-check">
+                <input type="checkbox" name="check" class="check" id="check">
+                <i>Check password</i>
+            </div>
+
+            <div class="c-btn">
+                <button type="submit" class="submit">Login</button>
+            </div>
+        </form>
+    </section> 
+
+    <script src="main.js"></script>
+</body>
+</html>
