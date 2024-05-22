@@ -1,0 +1,209 @@
+@import url('../main.css');
+
+
+.sec__one{
+    /* properties */
+    --_transition-time-500: calc(var(--transition-time-1000) - 500ms);
+    --_transition-time-2000: calc(var(--transition-time-1000) * 2);
+    --_transition-time-3000: calc(var(--transition-time-1000) * 3);
+    --_transition-delay-2000: calc(var(--transition-delay-1000) + 1000ms);
+
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+    & .banner{
+        text-align: center;
+        line-height: 1.5;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 2;   
+        padding-top: 2rem;
+        
+        & h1 a{
+            font-size: 8rem;
+            letter-spacing: 10px;
+            color: inherit;
+            transition: color var(--transition-time-300) var(--transition-timing-ease);
+        }
+
+        /* & h1:hover a{
+            color: var(--highlight);
+        } */
+
+        & p{
+            font-size: 2rem;
+            font-family: var(--header1);
+            margin-bottom: 1rem;
+            transition: var(--transition-time-300) var(--transition-timing-ease);
+            color: inherit;
+            width: max-content;
+            margin-inline: auto;
+        }
+
+        & p:hover span{
+            color: var(--highlight);
+        }
+    }
+
+    & .bg-des{
+        position: absolute;
+        z-index: 1;
+        height: 100px;
+        aspect-ratio: 1/1;
+        visibility: hidden;
+    }
+    
+    
+    & .target{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 400px;
+        filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
+        /* animation: target 3s ease infinite forwards;  */
+        transition: top var(--_transition-time-2000) var(--transition-timing-ease), filter var(--_transition-time-500) var(--transition-timing-ease);
+    }
+
+    & .target:hover{
+        filter: none;
+    }
+
+    & .banner h1:hover .target{
+        filter: none;
+    }
+
+    & .tulip1{
+        bottom: -400px;
+        left: 0;
+        height: 300px;
+        transition: bottom var(--_transition-time-3000);
+        transition-delay: var(--transition-delay-1000);
+    }
+
+    & .tulip2{
+        bottom: -400px;
+        right: 0;
+        height: 300px;
+        transition: bottom var(--_transition-time-3000);
+        transition-delay: var(--_transition-delay-2000);
+    } 
+
+   
+    @media (max-width:1000px){
+        .banner h1 a{
+            font-size: 6rem;
+        }
+
+        .target{
+            height: 400px;
+        }
+    
+        .tulip1, .tulip2{
+            height: 300px;
+            width: 250px;
+        }
+    }
+
+    @media (max-width:800px){
+        .target{
+            height: 350px;
+        }
+    
+        .tulip1, .tulip2{
+            height: 280px;
+            width: 250px;
+        }
+    }
+
+    @media (max-width:700px){
+        .target{
+            height: 320px;
+        }
+    
+        .tulip1, .tulip2{
+            height: 220px;
+            width: 200px;
+        }
+    }
+
+    @media (max-width:600px){
+        .banner h1 a{
+            font-size: 4rem;
+        }
+    
+        .btn{
+            transform: scale(0.9);
+        }
+
+        .target{
+            height: 300px;
+        }
+
+        .tulip1, .tulip2{
+            height: 210px;
+            width: 190px;
+        }
+    }
+
+    @media (max-width: 500px){
+        .banner h1 a{
+            font-size: 3.5rem;
+        }
+    
+        .banner p{
+            font-size: 1.5rem;
+        }
+    
+        .btn{
+            transform: scale(0.7);
+        }
+
+        .target{
+            height: 290px;
+        }
+
+        .tulip1, .tulip2{
+            height: 200px;
+            width: 150px;
+        }
+    } 
+
+    @media (max-width:400px){
+        .banner h1 a{
+            font-size: 2.5rem;
+        }
+    
+        .banner p{
+            font-size: 1.3rem;
+        }
+
+        .target{
+            height: 250px;
+        }
+        .tulip1, .tulip2{
+            height: 180px;
+            width: 150px;
+        }
+    }
+}
+
+
+
+
+/* @keyframes target {
+    0%{
+        filter: none;
+    }
+    100%{
+        filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
+    }
+} */
+
+
+.sec__two{
+    display: none;
+    margin-top: 200px;
+    transition-delay: 3s;
+}

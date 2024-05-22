@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANA</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="../FAVICON/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> 
+    <link rel="stylesheet" href="../CCS/lightbox.css">
+</head>
+<body oncontextmenu="return false">
+    <header class="container fade">
+        <div class="header">
+            <div class="width">
+                <div class="flex padding">
+                    <div class="logo cursor-tulip">
+                        <h1 class="cursor-tulip">야나</h1>
+                    </div>
+        
+                    <input type="checkbox" name="hamburger" id="hamburger">
+                    <label for="hamburger" id="icon" class="select">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+        
+                    <nav class="nav flex">
+                        <a href="../index.html" class="padding select">Home</a>
+                        <a href="./sound.html" class="padding select">Sound</a>
+                        <a href="#" class="active padding select">Gallery</a>
+                        <a href="./about.html" class="padding select">About us</a>
+                        <a href="#" class="padding select" onclick="theme()">
+                            PLAY &#128192;
+                        </a>
+                        <!-- <i class="fi fi-rr-moon-stars"></i> -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery width fade">
+
+        <h1 class="title">Our Pictures</h1>
+
+        <input type="radio" name="seth" id="random" checked>
+        <input type="radio" name="seth" id="dates">
+        <input type="radio" name="seth" id="messages">
+        <label for="random" class="nav__random select">Random</label>
+        <label for="dates" class="nav__dates select">Dates</label>
+        <label for="messages" class="nav__messages select">Messages</label>
+        
+
+        <div class="random__section">
+            <h1 class="random_title">RANDOM</h1>
+
+            <div class="grid">
+                <a href="../assets/GALLERY/random3.jpeg" data-lightbox="models" data-title="AYAW PA">
+                    <img src="../assets/GALLERY/random3.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random4.jpeg" data-lightbox="models" data-title="SELFIE WITH CRUSH">
+                    <img src="../assets/GALLERY/random4.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random5.jpeg" data-lightbox="models" data-title="BESTIEE<3">
+                    <img src="../assets/GALLERY/random5.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random6.jpeg" data-lightbox="models" data-title="BACKHUG">
+                    <img src="../assets/GALLERY/random6.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random1.jpg" data-lightbox="models" data-title="GALIT YARN?">
+                    <img src="../assets/GALLERY/random1.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random2.jpg" data-lightbox="models" data-title="GALIT YARN?">
+                    <img src="../assets/GALLERY/random2.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random7.jpg" data-lightbox="models" data-title="PRETTY WIFEE">
+                    <img src="../assets/GALLERY/random7.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random8.jpg" data-lightbox="models" data-title="KYOT">
+                    <img src="../assets/GALLERY/random8.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random11.jpg" data-lightbox="models" data-title="YOGURT WITH U">
+                    <img src="../assets/GALLERY/random11.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random12.jpg" data-lightbox="models" data-title="SUPPORTIVE GF">
+                    <img src="../assets/GALLERY/random12.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random9.jpg" data-lightbox="models" data-title="SKETCH">
+                    <img src="../assets/GALLERY/random9.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random10.jpg" data-lightbox="models" data-title="PANGIT">
+                    <img src="../assets/GALLERY/random10.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random15.jpg" data-lightbox="models" data-title="JULLIAN Q">
+                    <img src="../assets/GALLERY/random15.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random14.jpeg" data-lightbox="models" data-title="SETH">
+                    <img src="../assets/GALLERY/random14.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random16.jpg" data-lightbox="models" data-title="FOR ME">
+                    <img src="../assets/GALLERY/random16.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random01.png" data-lightbox="models" data-title="FOR HER">
+                    <img src="../assets/GALLERY/random01.png" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random17.png" data-lightbox="models" data-title="AYIEEE ENEBEE">
+                    <img src="../assets/GALLERY/random17.png" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random18.png" data-lightbox="models" data-title="HMP">
+                    <img src="../assets/GALLERY/random18.png" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random19.jpg" data-lightbox="models" data-title="1ST CALL">
+                    <img src="../assets/GALLERY/random19.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random13.jpg" data-lightbox="models" data-title="CHERF YARN?">
+                    <img src="../assets/GALLERY/random13.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random20.jpeg" data-lightbox="models" data-title="RECIPE">
+                    <img src="../assets/GALLERY/random20.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random21.jpeg" data-lightbox="models" data-title="CAKE BA YAN?">
+                    <img src="../assets/GALLERY/random21.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random22.jpeg" data-lightbox="models" data-title="PANGIT LASA">
+                    <img src="../assets/GALLERY/random22.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random23.jpeg" data-lightbox="models" data-title="SPECIAL EFFECTS YARN?">
+                    <img src="../assets/GALLERY/random23.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/random24.jpeg" data-lightbox="models" data-title="IHHH">
+                    <img src="../assets/GALLERY/random24.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+            </div>
+        </div>
+
+        <div class="dates__section">
+            <h1 class="dates_title">DATES</h1>
+            <div class="grid">
+                <a href="../assets/GALLERY/date1.jpeg" data-lightbox="models" data-title="KUBA">
+                    <img src="../assets/GALLERY/date1.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date2.jpeg" data-lightbox="models" data-title="PRETTY">
+                    <img src="../assets/GALLERY/date2.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date3.jpeg" data-lightbox="models" data-title="HER BODYGUARD">
+                    <img src="../assets/GALLERY/date3.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date4.jpeg" data-lightbox="models" data-title="MAS MASARAP AKIN">
+                    <img src="../assets/GALLERY/date4.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date5.jpeg" data-lightbox="models" data-title="SWAK KUKIS">
+                    <img src="../assets/GALLERY/date5.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date6.jpeg" data-lightbox="models" data-title="ASTETIK AH">
+                    <img src="../assets/GALLERY/date6.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date7.jpeg" data-lightbox="models" data-title="KINIS FOREHEAD">
+                    <img src="../assets/GALLERY/date7.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date8.jpeg" data-lightbox="models" data-title="WITH PRETTY GF">
+                    <img src="../assets/GALLERY/date8.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date9.jpeg" data-lightbox="models" data-title="TRABI CAFE - 1ST DATE VALENTINES EDITION">
+                    <img src="../assets/GALLERY/date9.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date10.jpeg" data-lightbox="models" data-title="NADALA SA AMERICANO DI NAUBOS PUDS">
+                    <img src="../assets/GALLERY/date10.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date11.jpeg" data-lightbox="models" data-title="SYMBOLIZE OUR RELATIONSHIP">
+                    <img src="../assets/GALLERY/date11.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date12.jpg" data-lightbox="models" data-title="PAK">
+                    <img src="../assets/GALLERY/date12.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date13.jpg" data-lightbox="models" data-title="PAK NA PAK GANDA NG GF KO">
+                    <img src="../assets/GALLERY/date13.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date14.jpg" data-lightbox="models" data-title="USOG KA UNTI NAK">
+                    <img src="../assets/GALLERY/date14.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date15.jpg" data-lightbox="models" data-title="SUNFLOWER">
+                    <img src="../assets/GALLERY/date15.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date16.jpeg" data-lightbox="models" data-title="BATANG HAMOG NOGNOG EDITION">
+                    <img src="../assets/GALLERY/date16.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date17.jpeg" data-lightbox="models" data-title="ROSES">
+                    <img src="../assets/GALLERY/date17.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date18.jpeg" data-lightbox="models" data-title="ROSESS">
+                    <img src="../assets/GALLERY/date18.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date19.jpeg" data-lightbox="models" data-title="PUTI KO PA- OO NA MAS MAPUTI KA:3">
+                    <img src="../assets/GALLERY/date19.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date20.jpg" data-lightbox="models" data-title="OBENTO CAKE">
+                    <img src="../assets/GALLERY/date20.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date21.jpg" data-lightbox="models" data-title="GANDA E SARAP PA:3">
+                    <img src="../assets/GALLERY/date21.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date22.jpg" data-lightbox="models" data-title="THANKYOUUU">
+                    <img src="../assets/GALLERY/date22.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date23.jpeg" data-lightbox="models" data-title="SORRY AND THANKYOU:3">
+                    <img src="../assets/GALLERY/date23.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date24.jpeg" data-lightbox="models" data-title="MWUEHEHEH">
+                    <img src="../assets/GALLERY/date24.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date25.jpeg" data-lightbox="models" data-title="CUTIEEE">
+                    <img src="../assets/GALLERY/date25.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date26.jpeg" data-lightbox="models" data-title="SANDAL YARN">
+                    <img src="../assets/GALLERY/date26.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date27.JPG" data-lightbox="models" data-title="PANGIT KOOOO">
+                    <img src="../assets/GALLERY/date27.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date28.jpg" data-lightbox="models" data-title="GANDA MO">
+                    <img src="../assets/GALLERY/date28.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date29.jpg" data-lightbox="models" data-title="BBM VS LENI YARN?">
+                    <img src="../assets/GALLERY/date29.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <!-- <a href="../assets/GALLERY/date30.jpg" data-lightbox="models" data-title="">
+                    <img src="../assets/GALLERY/date30.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a> -->
+                <a href="../assets/GALLERY/date31.jpg" data-lightbox="models" data-title="PERO SA CHAT AKO SI HART IKAW SI LIKE">
+                    <img src="../assets/GALLERY/date31.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <!-- <a href="../assets/GALLERY/date32.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="../assets/GALLERY/date32.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a> -->
+                <a href="../assets/GALLERY/date33.JPG" data-lightbox="models" data-title="GANDA MOOOO">
+                    <img src="../assets/GALLERY/date33.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date34.JPG" data-lightbox="models" data-title="KYOT HART">
+                    <img src="../assets/GALLERY/date34.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date35.JPG" data-lightbox="models" data-title="LOWKEY">
+                    <img src="../assets/GALLERY/date35.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date36.JPG" data-lightbox="models" data-title="LOWKEYSS">
+                    <img src="../assets/GALLERY/date36.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date37.JPG" data-lightbox="models" data-title="MAHAL DIN KITA">
+                    <img src="../assets/GALLERY/date37.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date38.JPG" data-lightbox="models" data-title="TAILING MY CRUSH">
+                    <img src="../assets/GALLERY/date38.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date39.JPG" data-lightbox="models" data-title="OOP OP WAG KA LILINGON MAHUHULI AKO">
+                    <img src="../assets/GALLERY/date39.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date40.JPG" data-lightbox="models" data-title="AWIEEE KYOTTT:3">
+                    <img src="../assets/GALLERY/date40.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date41.JPG" data-lightbox="models" data-title="GANDA MO SOBRA GRR">
+                    <img src="../assets/GALLERY/date41.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date42.JPG" data-lightbox="models" data-title="ILOVEYOUUUU">
+                    <img src="../assets/GALLERY/date42.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date43.JPG" data-lightbox="models" data-title="SIKSIK MOMINTS">
+                    <img src="../assets/GALLERY/date43.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date44.JPG" data-lightbox="models" data-title="HEART OR BALLET?">
+                    <img src="../assets/GALLERY/date44.JPG" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date45.jpg" data-lightbox="models" data-title="POOL">
+                    <img src="../assets/GALLERY/date45.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date46.jpg" data-lightbox="models" data-title="WITH MY FAMILY">
+                    <img src="../assets/GALLERY/date46.jpg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date47.jpeg" data-lightbox="models" data-title="SI KUHA">
+                    <img src="../assets/GALLERY/date47.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date48.jpeg" data-lightbox="models" data-title="MODEL NG PINAG HIRAPAN NAMIN HANAPIN">
+                    <img src="../assets/GALLERY/date48.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date49.jpeg" data-lightbox="models" data-title="KYOT">
+                    <img src="../assets/GALLERY/date49.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date50.jpeg" data-lightbox="models" data-title="GINAYA YUNG WALK MO">
+                    <img src="../assets/GALLERY/date50.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date52.jpeg" data-lightbox="models" data-title="TURN AROUND">
+                    <img src="../assets/GALLERY/date52.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+                <a href="../assets/GALLERY/date51.jpeg" data-lightbox="models" data-title="BOOM">
+                    <img src="../assets/GALLERY/date51.jpeg" alt="music-tape-violet" onclick="fullView(this.src)">
+                </a>
+            </div>
+        </div>
+
+        <div class="messages__section">
+            <h1 class="messages_title">MESSAGES</h1>
+            <div class="grid">
+                <a href="../assets/GALLERY/txt1.jpg" data-lightbox="models" data-title="AYIEEE KELEG AHAHAH">
+                    <img src="../assets/GALLERY/txt1.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt01.jpg" data-lightbox="models" data-title="SUS">
+                    <img src="../assets/GALLERY/txt01.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt02.jpg" data-lightbox="models" data-title="AKO NGA RED FLAG E">
+                    <img src="../assets/GALLERY/txt02.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt03.jpg" data-lightbox="models" data-title="IHHH BAHO">
+                    <img src="../assets/GALLERY/txt03.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt4.jpg" data-lightbox="models" data-title="*DIES">
+                    <img src="../assets/GALLERY/txt4.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt2.jpg" data-lightbox="models" data-title="ILOVEYOUUUU">
+                    <img src="../assets/GALLERY/txt2.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt3.jpg" data-lightbox="models" data-title="IMISSYOUMOREEE GRR">
+                    <img src="../assets/GALLERY/txt3.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt5.jpg" data-lightbox="models" data-title="GIGIL SYA IHHH">
+                    <img src="../assets/GALLERY/txt5.jpg" alt="text-pics">
+                </a>
+                <!-- <a href="../assets/GALLERY/txt6.jpg" data-lightbox="models" data-title="DAPAT LANG HMP">
+                    <img src="../assets/GALLERY/txt6.jpg" alt="text-pics">
+                </a> -->
+                <a href="../assets/GALLERY/txt7.jpg" data-lightbox="models" data-title="ROR">
+                    <img src="../assets/GALLERY/txt7.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt8.jpg" data-lightbox="models" data-title="MWUEHEHE SPOLIED">
+                    <img src="../assets/GALLERY/txt8.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt9.jpg" data-lightbox="models" data-title="AFTERMATH VALENTINES EDITION">
+                    <img src="../assets/GALLERY/txt9.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt10.jpg" data-lightbox="models" data-title="KELEG UNANG CALL SIGN *DIES">
+                    <img src="../assets/GALLERY/txt10.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt11.jpg" data-lightbox="models" data-title="MY EVERYTHING:3">
+                    <img src="../assets/GALLERY/txt11.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt13.jpg" data-lightbox="models" data-title="MWUEHEEEHEHEH BEFORE VALENTINES">
+                    <img src="../assets/GALLERY/txt13.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt14.jpg" data-lightbox="models" data-title="CRINGE SCRIPT FOR LIGAW *DIES">
+                    <img src="../assets/GALLERY/txt14.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt15.jpg" data-lightbox="models" data-title="ENEBEEE">
+                    <img src="../assets/GALLERY/txt15.jpg" alt="text-pics">
+                </a>
+                <a href="../assets/GALLERY/txt17.jpg" data-lightbox="models" data-title="I ALWAYS PLAY IT KAPAG MAG HUHUGAS AND ALL MAHAL NA MAHAL KITA BABUU THANKYOU FOR EVERYTHING:3">
+                    <img src="../assets/GALLERY/txt17.jpg" alt="text-pics">
+                </a>    
+            </div>
+        </div>
+    </section>
+
+
+<div id="full">
+    <img id="full_img" alt="ss">
+    <span id="close_img" onclick="closeIMG()">&times;</span>
+</div>
+
+
+<script src="../JS/gallery.js"></script> 
+<script src="../JS/lightbox-plus-jquery.min.js"></script>

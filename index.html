@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANA</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./FAVICON/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> 
+</head>
+<body oncontextmenu="return false">
+        <header class="container fade">
+            <div class="header">
+                <div class="width">
+                    <div class="flex padding">
+                        <div class="logo cursor-tulip">
+                            <h1 class="cursor-tulip">야나</h1>
+                        </div>
+            
+                        <input type="checkbox" name="hamburger" id="hamburger">
+                        <label for="hamburger" id="icon" class="select">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+            
+                        <nav class="nav flex">
+                            <a href="#" class="active padding select">Home</a>
+                            <a href="./HTML/sound.html" class="padding select">Sound</a>
+                            <a href="/HTML/gallery.html" class="padding select">Gallery</a>
+                            <a href="./HTML/about.html" class="padding select">About us</a>
+                            <a href="#" class="padding select" onclick="theme()">
+                                PLAY &#128192;
+                            </a>
+                            <!-- <i class="fi fi-rr-moon-stars"></i> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <section class="section sec__one width">
+            <div class="banner">
+                <h1 class="fade transition-delay-1000">
+                    <a class="cursor-tulip" href="https://howtosayguide.com/how-to-say-my-home-in-spanish/" target="_self">
+                        mi-casa
+                    </a>
+                </h1>
+                <p class="fade transition-delay-1500">
+                    <span>{</span> love home <span>}</span>
+                </p>
+                
+                <button type="button" onclick="go()" class="btn select fade transition-delay-10000">HI LOVEEE</button>
+            </div>
+
+            <!-- <span class="i">I</span>
+            <span class="u">U</span> -->
+
+            <img src="./assets/DESIGN/heart-target.svg" id="target" class="bg-des target" alt="target">
+
+            <img src="./assets/DESIGN/tulip-pink.svg" id="tulip1" class="bg-des tulip1" alt="tulip-left">
+            <img src="./assets/DESIGN/tulip-pink.svg" id="tulip2" class="bg-des tulip2" alt="tulip-right">
+            
+        </section>
+
+
+        <script src="./JS/home.js"></script>
+</body>
+</html>

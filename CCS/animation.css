@@ -1,0 +1,36 @@
+/* delay */
+/* .transition-delay-100{transition-delay: 100ms};
+.transition-delay-200{transition-delay: 200ms};
+.transition-delay-300{transition-delay: 300ms};
+.transition-delay-400{transition-delay: 400ms};
+.transition-delay-500{transition-delay: 500ms};
+.transition-delay-600{transition-delay: 600ms};
+.transition-delay-700{transition-delay: 700ms};
+.transition-delay-800{transition-delay: 800ms};
+.transition-delay-900{transition-delay: 900ms};
+.animation-delay-1000{animation-delay: 1000ms};
+.transition-delay-2000{transition-delay: 2000ms};
+.transition-delay-3000{transition-delay: 3000ms};
+.transition-delay-4000{transition-delay: 4000ms};
+.transition-delay-5000{transition-delay: 5000ms};
+.transition-delay-6000{transition-delay: 6000ms};
+.transition-delay-7000{transition-delay: 7000ms};
+.transition-delay-8000{transition-delay: 8000ms};
+.transition-delay-9000{transition-delay: 9000ms};
+.transition-delay-10000{transition-delay: 10000ms};  */
+
+
+.fade{
+    animation: fade 1s ease forwards;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

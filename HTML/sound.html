@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANA</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="../FAVICON/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> 
+</head>
+<body oncontextmenu="return false">
+    <header class="container fade">
+        <div class="header">
+            <div class="width">
+                <div class="flex padding">
+                    <div class="logo cursor-tulip">
+                        <h1 class="cursor-tulip">야나</h1>
+                    </div>
+        
+                    <input type="checkbox" name="hamburger" id="hamburger">
+                    <label for="hamburger" id="icon" class="select">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+        
+                    <nav class="nav flex">
+                        <a href="../index.html" class="padding select">Home</a>
+                        <a href="#" class="active padding select">Sound</a>
+                        <a href="./gallery.html" class="padding select">Gallery</a>
+                        <a href="./about.html" class="padding select">About us</a>
+                        <a href="#" class="padding select" onclick="theme()">
+                            PLAY &#128192;
+                        </a>
+                        <!-- <i class="fi fi-rr-moon-stars"></i> -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="letter__pop">
+        <div id="main_letter">
+            <h1 onclick="hide()" class="hide">X</h1>
+            <h1 id="letter_h1">HELLOW</h1>
+            <p class="sub_head">&#129402;NOTES</p>
+            <p id="letter_p">asdasd</p>
+        </div>
+    </div>
+
+    <!-- &#129402; pa cute -->
+
+
+    <section class="padding sound fade">
+        <div class="banner">
+            <img class="love absolute" src="../assets/DESIGN/heart-love.svg" alt="love">
+            <h1>Play a sound</h1>
+
+            <a href="#sound2" onclick="lol()" class="absolute">
+                <img class="play-btn select" src="../assets/DESIGN/sound-icons/play-btn-pink.svg" alt="play-btn">
+            </a>
+            <!-- <img class="guitar absolute" src="../assets/DESIGN/sound-icons/bass-guitar.svg" alt="concert">
+            <img class="guitar2 absolute" src="../assets/DESIGN/sound-icons/bass-guitar.svg" alt="concert"> -->
+        </div>
+    </section>
+
+    <section class="sound2">
+        
+        <h1 class="title" id="sound2">Why should you <br> listen?</h1>
+
+        <div class="card__section">
+            <div class="card">
+                <img src="../assets/DESIGN/sound-icons/happy-woman.svg" alt="happy-woman">
+                
+                <div class="card__text">
+                    <h2 class="sub-title">Happy</h2>
+                    <p>My collection can make you smile and happy.</p>
+                </div> 
+                
+                <button class="btn select happy">click me</button>
+            </div>
+
+            <div class="card">
+                <img src="../assets/DESIGN/sound-icons/stress-woman.svg" alt="stress-woman">
+                
+                <div class="card__text">
+                    <h2 class="sub-title">Mood</h2>
+                    <p>It can increase your mood and lower your stress levels.</p>
+                </div>   
+                
+                <button class="btn select mood">click me</button>
+            </div>
+
+            <div class="card">
+                <img src="../assets/DESIGN/sound-icons/energy.svg" alt="energy">
+                
+                <div class="card__text">
+                    <h2 class="sub-title">Energy</h2>
+                    <p>It can boost your energy.</p>
+                </div>   
+                
+                <button class="btn select energy">click me</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sound__system width">
+
+        <input type="radio" name="seth" id="music" checked>
+        <input type="radio" name="seth" id="letter">
+        <label for="music" class="nav__music select">Sound</label>
+        <label for="letter" class="nav__letter select">Letter</label>
+
+        
+        <div class="music__section">
+            <h1 class="sound__title">Choose a sound</h1>
+            <div class="grid">
+                <div class="grid-item" onclick="loml()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>my loml</h1>
+                </div>
+                <div class="grid-item"  onclick="missnmiss()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>misss na miss na kitaaa</h1>
+                </div>
+                <div class="grid-item" onclick="rants()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>you can rants on me okay? always</h1>
+                </div>
+                <div class="grid-item" onclick="gandasobra()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>ang ganda mo sobraaa</h1>
+                </div>
+                <div class="grid-item" onclick="sweet()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>my sweet cutie baby</h1>
+                </div>
+                <div class="grid-item" onclick="hydrated()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>stay hydrated mahal ko</h1>
+                </div>
+                <div class="grid-item" onclick="easy()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>take it easy mahal</h1>
+                </div>
+                <div class="grid-item" onclick="ggg()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>ggg sa magandang asawa ko na yannn</h1>
+                </div>
+                <div class="grid-item" onclick="hows()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>hows's my baby hm?</h1>
+                </div>
+                <div class="grid-item" onclick="pagod()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>pagod baby ko na yan?</h1>
+                </div>
+                <div class="grid-item" onclick="mahalnmahal()">
+                    <img src="../assets/DESIGN/sound-icons/music-tape-violet.svg" alt="music-tape-violet">
+
+                    <h1>mahal na mahal kita yanaa</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="letter__section">
+            <h1 class="letter__title">Open when a blank</h1>
+            <div class="grid">
+                <div class="grid-item" onclick="miss()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you miss me</h1>
+                </div>
+                <div class="grid-item" onclick="tired()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you are tired</h1>
+                </div>
+                <div class="grid-item" onclick="overwhelmed()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you feel overwhelmed</h1>
+                </div>
+                <div class="grid-item" onclick="stress()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you are stress</h1>
+                </div>
+                <div class="grid-item" onclick="pretty()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you don't feel pretty</h1>
+                </div>
+                <div class="grid-item" onclick="lonely()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you feel lonely</h1>
+                </div>
+                <div class="grid-item" onclick="kiss()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you miss my kisses</h1>
+                </div> 
+                <div class="grid-item" onclick="mad()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you are mad at me</h1>
+                </div>
+                <div class="grid-item" onclick="hurt()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you want to hurt youself</h1>
+                </div>
+                <div class="grid-item" onclick="anxiety()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you are having anxiety and can't sleep</h1>
+                </div>
+                <div class="grid-item" onclick="overthinking()">
+                    <img src="../assets/DESIGN/letter.svg" alt="music-tape-violet">
+
+                    <h1>you are overthinking</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../JS/sound.js"></script>
+</body>
+</html>
