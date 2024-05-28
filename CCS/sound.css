@@ -1,8 +1,9 @@
 @import url('../main.css');
 
 .sound{
-    height: 100dvh;
     height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
     width: 100vw;
     display: grid;
     align-items: center;
