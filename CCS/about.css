@@ -211,6 +211,7 @@
     }
 }
 
+/*
 .person .hover_img{
     position: absolute;
     top: 40%;
@@ -223,7 +224,7 @@
 .person:hover .hover_img{
     opacity: 1;
 }
-
+*/
 
 
 @keyframes pulse {
