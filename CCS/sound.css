@@ -2,8 +2,8 @@
 
 .sound{
     height: 100vh;
-    height: 100dvh;
-    overflow: hidden;
+/*     height: 100dvh;
+    overflow: hidden; */
     width: 100vw;
     display: grid;
     align-items: center;
